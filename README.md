@@ -14,11 +14,12 @@ This Python application allows you to track your daily exercises and store the d
 ## Setup API Credentials and Google Spreadsheet:
 
 1. Go to [this link](https://developers.google.com/sheets/api/quickstart](https://docs.google.com/spreadsheets/d/1C6LMIG-6By3ET7_JSKs7ml5C7DiZ1sf0I10n7OAKBpM/edit?usp=sharing)https://docs.google.com/spreadsheets/d/1C6LMIG-6By3ET7_JSKs7ml5C7DiZ1sf0I10n7OAKBpM/edit?usp=sharing) and create a copy of the My Workouts Spreadsheet. You may need to login/register.
-     ![workout-tracking](workout-tracking.png)
+   
+![workout-tracking](workout-tracking.png)
 
-2. Go to the [Nutritionix API](https://www.nutritionix.com/business/api) website and select "Get Your API Key" to sign up for a free account. Double check your spam folder (and/or your gmail "promotions" tab) for the Nutritionix verification email.
-3. Once logged in, you should be able to access your API key and App id.
-4. Create a new project in PyCharm and in the main.py create 2 constants to store the APP_ID and API_KEY that you got from Nutritionix.
+3. Go to the [Nutritionix API](https://www.nutritionix.com/business/api) website and select "Get Your API Key" to sign up for a free account. Double check your spam folder (and/or your gmail "promotions" tab) for the Nutritionix verification email.
+4. Once logged in, you should be able to access your API key and App id.
+5. Create a new project in PyCharm and in the main.py create 2 constants to store the APP_ID and API_KEY that you got from Nutritionix.
 
 ## Setup Your Google Sheet with Sheety
 
