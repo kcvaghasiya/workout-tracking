@@ -26,7 +26,7 @@ result = response.json()
 today_date = datetime.now().strftime("%d/%m/%Y")
 now_time = datetime.now().strftime("%X")
 headers = {
-    "Authorization": "Basic a2F2aXRhOkthdml0YUAwMDc="
+    "Authorization": os.environ.get("sheety_authorization")
 }
 for exercise in result["exercises"]:
     sheet_input = {
