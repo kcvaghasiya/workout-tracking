@@ -38,3 +38,6 @@ Under your Google Account Security settings, you should see that Sheety has acce
     python main.py
     ```
 
+## Screenshot
+
+![workout-tracking](output.png)
